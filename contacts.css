@@ -1,0 +1,83 @@
+body{
+  background: linear-gradient(to right, #ffe6f0, white);
+  font: sans-serif;
+  text-align: center;
+  letter-spacing: .1em;
+  top: 5%;
+  margin: 0;
+}
+ul.navbar{
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  margin: 0;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+h2{
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.5em;
+  text-align: center;
+  text-transform: none;
+  font-size: 50px;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255,255,255,0.4);
+}
+tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.helpline{
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 38, 77;)
+  margin-top: 20px;
+  text-align: center;
+}

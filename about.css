@@ -1,0 +1,103 @@
+.parallax{
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("back.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  font: sans-serif;
+  text-align: center;
+  letter-spacing: .1em;
+}
+body{
+  top: 15%;
+  margin: 0;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    color: rgba(255, 255, 255,0.5);
+    letter-spacing: 0.3em;
+    text-align: center;
+    text-transform: none;
+    font-size: 80px;
+    background: black;
+    margin: 0;
+    padding: 30px;
+  }
+  h3{
+    font-family: 'Handlee', cursive;
+    color: rgba(0, 0, 0,0.8);
+    text-align: center;
+    text-transform: none;
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  ul.navbar{
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin: 0
+  }
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .team{
+    font-family: 'Sniglet', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+  .contact{
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("phone.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+  }
+  .email{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  /* div.one{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 30px;
+  }
+  div.two{
+    text-align: centre;
+    font-size: 30px;
+  }
+  div.three{
+    margin-right: 20px;
+    text-align: right;
+    font-size: 30px;
+  } */
